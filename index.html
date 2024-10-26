@@ -396,7 +396,7 @@ SECTIONS {
         <span class="kw">return</span> arg1 + arg2 + arg3;
     }</code></pre>
 <pre class="sourceCode nasm"><code class="sourceCode nasm">    <span class="co">; The assembly code</span>
-    external sum_of_three   <span class="co">; the function sum_of_three is defined elsewhere</span>
+    extern sum_of_three   <span class="co">; the function sum_of_three is defined elsewhere</span>
 
     <span class="kw">push</span> <span class="dt">dword</span> <span class="dv">3</span>            <span class="co">; arg3</span>
     <span class="kw">push</span> <span class="dt">dword</span> <span class="dv">2</span>            <span class="co">; arg2</span>
